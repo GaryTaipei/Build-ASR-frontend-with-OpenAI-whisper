@@ -1,6 +1,6 @@
-1.系統架構為 ASR(Automatic Speech Recognition) frontend --> FastAPI --> Local LLM(Ollama 3.1)  
+1.系統架構為 ASR(Automatic Speech Recognition) frontend --> API Server(FastAPI) --> Local LLM(Ollama 3.1)  
 
-2.這個 Repository 為 ASR Frontend，需要搭配另一個 Repo FastAPI + Local LLM  
+2.這個 Repository 為 Gradio 建置 ASR Frontend 網頁，取得 Microphone 音源後以OpenAI Whisper 轉換為 English text，再去呼叫 API ，需要搭配另一個 Repo FastAPI + Local LLM  
 
 3.Git Clone Repo 程式到本機資料夾後，建議為本機資料夾建立虛擬環境 e.g python -m venv Build-ASR-frontend-with-OpenAI-whisper  
 
